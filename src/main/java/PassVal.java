@@ -16,6 +16,7 @@ public class PassVal {
 
         List<String> replyList = new ArrayList<>();
 
+
         if (!validLen) replyList.add("Passwortlänge ungültig");
         if (!isNumbers) replyList.add("Password muss mindestens eine Nummer enthalten");
         if (!firstCap) replyList.add("Der erste Buchstabe muss ein Großbuchstabe sein");
